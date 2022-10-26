@@ -1,1 +1,4 @@
-# list_search
+This code creates a pipe and forks off two processes. The first process searches the left half of an array for a given key and the second process searches the right half of the array for the same key. If the key is found in either half, the corresponding process prints the index of the key and writes the number 1 to the pipe. If the key is not found in either half, the corresponding process prints -1 and writes the number 0 to the pipe. The parent process waits for both child processes to finish and then reads from the pipe. If it finds a 1 in the pipe, it prints the index of the key. If it doesn't find a 1, it prints -1.
+
+To run this code, type "./a.out array.txt key" into the terminal, where array.txt is the name of the file containing the array and key is the number you are searching for in the array.
+
