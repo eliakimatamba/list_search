@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <math.h>
+#include <sys/types.h>
 
 
 void list_search(int arrayStart, int arrayEnd, int searchKey, int * array, int * fd, int *counter){
