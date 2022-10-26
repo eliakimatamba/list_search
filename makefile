@@ -1,5 +1,5 @@
 all:
-	gcc -o a.out MySearch.c
+	gcc -o list_search list_search.c
 
 clean:
-	rm a.out
+	rm list_search
